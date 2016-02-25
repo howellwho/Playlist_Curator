@@ -10,12 +10,12 @@ The Playlist Curator is online at @@@@@
 
 Playlist Curator utilized the following technologies:
 
-*Ruby and Rails
-*Spotify Web API
-*Spotify OAuth
-*RSpotify Gem
-*PostgreSQL
-*Bootstrap
-*Trello for planning: https://trello.com/b/5Sv83z1r/playlist-pal
+* Ruby and Rails
+* Spotify Web API
+* Spotify OAuth
+* RSpotify Gem
+* PostgreSQL
+* Bootstrap
+* Trello for planning: https://trello.com/b/5Sv83z1r/playlist-pal
 
 
