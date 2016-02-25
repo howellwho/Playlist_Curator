@@ -12,6 +12,7 @@ Playlist Curator utilized the following technologies:
 
 * Ruby and Rails
 * Spotify Web API
+* Spotify widget HTML player
 * Spotify OAuth
 * RSpotify Gem
 * PostgreSQL
