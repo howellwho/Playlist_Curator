@@ -14,7 +14,7 @@ Playlist Curator utilized the following technologies:
 * Spotify Web API
 * Spotify widget HTML player
 * Spotify OAuth
-* RSpotify Gem
+* RSpotify Gem (easier querying of the Spotify API)
 * PostgreSQL
 * Bootstrap
 * Trello for planning: https://trello.com/b/5Sv83z1r/playlist-pal
