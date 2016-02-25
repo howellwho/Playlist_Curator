@@ -1,28 +1,21 @@
-== README
+== Playlist Curator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Playlist Curator is a web app that allows users to search for songs, create playlists as well as disover playlists within the UI. This was built as part of my second project for the General Assembly WDI 26 program. The inspiration was to create a central place where our cohort could all build and share playlists outside of Spotify's UI. As a heavy personal Spotify user I wanted to learn more about their API and its capablities.
 
-Things you may want to cover:
+Using the app is fairly straightforward. You can discover and add to a current playlist on the homepage or "Playlists" nav. One can create their own playlist by selecting "Add A Playlist" which will prompt you to give it a particular name. Users can then add songs or tracks by searching for a particular artist. By clicking the "Add to Playlist" this will add to the playlist queue. The Spotify player on the page dynamically grabs each Spotify ID of the song in the list and adds to the player for easy playback.
 
-* Ruby version
+Note: When users play back playlists it prompts the native Spoitfy app to load. Best practice is to keep the native Spotify app running in the background.
 
-* System dependencies
+The Playlist Curator is online at @@@@@
 
-* Configuration
+Playlist Curator utilized the following technologies:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ruby and Rails
+Spotify Web API
+Spotify OAuth
+RSpotify Gem
+PostgreSQL
+Bootstrap
+Trello for planning: https://trello.com/b/5Sv83z1r/playlist-pal
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
