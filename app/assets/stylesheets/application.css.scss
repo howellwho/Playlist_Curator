@@ -17,19 +17,26 @@
  @import "bootstrap";
 
  /* universal */
- body {
+body {
    font-family: 'PT Sans', sans-serif;
    line-height: 1.5;
    background: #eceec7;
  }
 
- header {
+header {
   width: 100%;
   background: black;
 }
 
 .player {
   float: right;
+}
+
+.song-list {
+  column-fill: balance;
+}
+.track-list {
+  display: inline;
 }
 ul {
 list-style-type: none;

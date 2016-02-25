@@ -1,5 +1,5 @@
 <h1 class="page-header"><%= @artist.name %></h1>
-<ul>
+<div class="song-list"
   <% @songs.each do |track| %>
     <li>
       <%= track.name %>
@@ -7,9 +7,8 @@
         <%= f.hidden_field :title, :value => track.name %>
         <%= f.hidden_field :artist, :value => @artist.name %>
         <%= f.hidden_field :spotify_track_id, :value => track.id %>
-        <%= f.submit :value=>"Add to Playlist" %>
+        <%= f.submit :value=>"Add to Playlist", class: "btn btn-primary btn-sm" %>
       <% end %>
-
     </li>
   <% end %>
-</ul>
+</div>

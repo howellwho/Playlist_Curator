@@ -10,9 +10,10 @@ class TracksController < ApplicationController
   end
 
   def destroy
-    Track.destroy(track_params)
-    redirect_to "/playlists"
-
+    track = Track.find(params[:id])
+    track.destroy
+    redirect_to :back
+  end
   private
 
   def track_params
