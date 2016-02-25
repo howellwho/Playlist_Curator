@@ -1,0 +1,6 @@
+<h1> New Playlist </h1>
+<%= form_for @playlist do |f| %>
+  <%= f.text_field(:name, placeholder: "Enter playlist name", class: "form-control") %>
+  <br>
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+<% end %>
