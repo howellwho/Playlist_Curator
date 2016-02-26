@@ -18,7 +18,6 @@
 
   <% @playlist.tracks.each do |track| %>
     <h5 data-id="<%=track.spotify_track_id%>">|Title|<strong><%= track.title %></strong> |Artist|<strong><%= track.artist %></strong>
-      <!-- <%= button_to "X", delete_track_path(track), method: :delete, params: {id: track.id} %> -->
       <%= link_to ('<i class="glyphicon glyphicon-trash"> </i>').html_safe, delete_track_path(track), :method=> :delete, params: {id: track.id} %>
     </h5>
   <% end %>

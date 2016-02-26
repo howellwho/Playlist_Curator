@@ -16,6 +16,6 @@ Rails.application.routes.draw do
 
   post 'playlists/:id/searchArtist', to: 'playlists#searchArtist'
   get '/tracks', to: 'tracks#index'
-  delete '/tracks', to: 'tracks#destroy', as: "delete_track"
+  delete '/tracks/:id', to: 'tracks#destroy', as: "delete_track"
 
 end
