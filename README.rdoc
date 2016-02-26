@@ -6,7 +6,7 @@ Using the app is fairly straightforward. You can discover and add to a current p
 
 Note: When users play back playlists it prompts the native Spoitfy app to load. Best practice is to keep the native Spotify app running in the background.
 
-The Playlist Curator is online at @@@@@
+The Playlist Curator is online at http://playlist-curator.herokuapp.com/
 
 Playlist Curator utilized the following technologies:
 
