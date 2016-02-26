@@ -19,4 +19,11 @@ Playlist Curator utilized the following technologies:
 * Bootstrap
 * Trello for planning: https://trello.com/b/5Sv83z1r/playlist-pal
 
+Contributing
 
+* Fork it ( https://github.com/howellwho/Playlist_Curator/fork )
+* Create your feature branch (git checkout -b my-new-feature)
+* Test your changes (bundle exec rspec)
+* Commit your changes (git commit -am 'Add some feature')
+* Push to the branch (git push origin my-new-feature)
+* Create a new Pull Request
