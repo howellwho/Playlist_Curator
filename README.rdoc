@@ -19,7 +19,7 @@ Playlist Curator utilized the following technologies:
 * Bootstrap
 * Trello for planning: https://trello.com/b/5Sv83z1r/playlist-pal
 
-## Contributing
+Contributing
 
 * Fork it ( https://github.com/howellwho/Playlist_Curator/fork )
 * Create your feature branch (git checkout -b my-new-feature)
