@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   post '/tracks', to: 'tracks#create', as: 'new_tracks'
   post '/playlists/:playlist_id/addTrack', to: 'playlists#addTrackToPlaylist', as: 'add_track_to_playlist'
   get 'playlists/:id/artists', to: 'playlists#index'
+  # get 'playlists/auth/spotify' to: 'playlists#index'
   # destroy "/playlists/:playlist_id/removeTrack" to: "playlists#destroy", as: "remove_track_from_playlist"
 
   post 'playlists/:id/searchArtist', to: 'playlists#searchArtist'

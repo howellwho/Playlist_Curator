@@ -38,6 +38,11 @@ header {
 .track-list {
   display: inline;
 }
+
+.landing-list {
+  font-size: 20px;
+}
+
 ul {
 list-style-type: none;
 }
@@ -82,5 +87,5 @@ header nav ul li a {
 
 main, footer {
   max-width: 960px;
-  margin: 40px auto;
+  margin: 25px auto;
 }
