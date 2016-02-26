@@ -14,6 +14,7 @@ class TracksController < ApplicationController
     track.destroy
     redirect_to :back
   end
+
   private
 
   def track_params

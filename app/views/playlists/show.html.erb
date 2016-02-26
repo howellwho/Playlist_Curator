@@ -1,5 +1,5 @@
 
-
+#Spotify player with dynamic song injection
 <div class="player"><iframe src="<%= @spotifyURL %>" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></div>
 
 <h1 class="page-header">Search Artists</h1>
@@ -15,7 +15,6 @@
   <h2>Tracks:</h2>
 
 <div class="track-list">
-
   <% @playlist.tracks.each do |track| %>
     <h5 data-id="<%=track.spotify_track_id%>">|Title|<strong><%= track.title %></strong> |Artist|<strong><%= track.artist %></strong>
       <%= link_to ('<i class="glyphicon glyphicon-trash"> </i>').html_safe, delete_track_path(track), :method=> :delete, params: {id: track.id} %>

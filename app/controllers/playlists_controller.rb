@@ -14,7 +14,7 @@ class PlaylistsController < ApplicationController
    Playlist.create(playlist_params)
    redirect_to "/playlists"
  end
-
+#method to inject songs from each unique playlist
  def show
    @playlist = Playlist.find(params[:id])
    @spotifyURL = "https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:"
@@ -36,12 +36,6 @@ class PlaylistsController < ApplicationController
      redirect_to root_path
    end
  end
-
-# def destroy
-#   @playlist = Playlist.find(params)[:playlist_id]
-#   @removeTrack = @playlist.track.destroy(track_params)
-#
-# end
 
  def searchArtist
    routeParams={:id=>params[:id], :name => params[:artist_name]}
